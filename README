@@ -1,0 +1,33 @@
+Cache Simulator Assignment
+--------------------------
+
+In this assignment you will design a basic cache simulator.
+
+Cache specifications are passed from command line. The specifications include
+cache size, associativity and block size. Both cache size and block size are
+specified in bytes. Along with cache specifications, an input files is passed
+that has read and write commands with associated address and data values in hex
+format. 
+
+I have provided a top level file 'cacheSim.cc' that reads command line
+parameters, parses the inputs and calls appropriate methods of your base cache to
+perform required operations. I have also provided BaseCache class skeleton,
+that you will fill to complete. Feel free to add any additional class variables
+or methods as per your design requirements. For your ease, I have labelled all
+the methods, variables that you need to write with 'WRITE ME'.
+
+Use Makefile provided to compile the assignment. 
+
+Command to run the cache simulator (for 128KB cache, associativity 8 and
+block size of 128bytes) is :
+	./cacheSim 131072 8 128 input1.txt
+Sample input and output files are provided.
+
+Assumptions:
+1. Writes and reads are always 32bits long.
+2. Block Size is always multiple of 4 bytes.
+3. Writes are successful only when a write hit occurs or an empty block is
+available in the desired set. This removes implementation of any cache line
+replacement policies. 
+4. Read and Write addresses are 32bit aligned. This removes the necessity to
+check for any partial data availability.
