@@ -1,0 +1,12 @@
+Successful write to address 0x76543200 with data 0x12349876
+Successful write to address 0x65432980 with data 0x98763452
+Successful write to address 0x87609840 with data 0x34980120
+Successful Read to address 0x76543204; Data=0x0
+Successful Read to address 0x76543200; Data=0x12349876
+Successful Read to address 0x65432988; Data=0x0
+Successful write to address 0x76543204 with data 0x98987676
+Successful write to address 0x87654040 with data 0x436abcef
+Number of Read Hits: 3
+Number of Read Misses: 0
+Number of Write Hits: 1
+Number of Write Misses: 4
