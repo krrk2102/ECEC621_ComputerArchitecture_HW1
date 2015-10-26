@@ -1,0 +1,11 @@
+Successful write to address 0x9876abca with data 0x349823ab
+Successful write to address 0x973234a0 with data 0xaf874522
+Successful write to address 0x345abcf0 with data 0x34231209
+Read miss to address 0x34541290
+Successful Read to address 0x9876abca; Data=0x349823ab
+Successful write to address 0x9876abca with data 0x349823ac
+Successful Read to address 0x9876abca; Data=0x349823ac
+Number of Read Hits: 2
+Number of Read Misses: 1
+Number of Write Hits: 1
+Number of Write Misses: 3
